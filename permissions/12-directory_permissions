@@ -1,3 +1,2 @@
 #!/bin/bash
-mkdir "$(dirname "$0")/../my_dir"
-chmod 751 "$(dirname "$0")/../my_dir"
+mkdir -m 751 my_dir
