@@ -1,1 +1,2 @@
-# basics directory
+#!/bin/bash
+pwd
