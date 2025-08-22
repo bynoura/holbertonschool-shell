@@ -1,0 +1,4 @@
+#!/bin/bash
+FILE="/home/user/documents/iacta"
+last_line=$(tail -n 1 "$FILE")
+echo "$last_line" >> "$FILE"
