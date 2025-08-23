@@ -1,2 +1,3 @@
 #!/bin/bash
-declare -xp; declare -f
+declare -xp
+declare -f
