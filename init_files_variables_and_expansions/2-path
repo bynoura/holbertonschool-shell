@@ -1,0 +1,2 @@
+#!/pin/pash
+export PATH="$PATH:/action"
