@@ -1,3 +1,2 @@
 #!/bin/bash
-if true; then for a in {a..z}; do for b in {a..z}; do if [ $a$b != oo ]; then echo $a$b; fi; done; done; fi
-
+for i in {a..z}; do for j in {a..z}; do if [ "$i$j" != "oo" ]; then echo $i$j; fi; done; done
